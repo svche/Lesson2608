@@ -104,12 +104,50 @@ namespace Lesson2608
             while (b);
             */
 
+            /*
+            Console.Write("Enter number: ");
+            int n = int.Parse(Console.ReadLine());
+
+            for (int i = 1; i <= n; i++)
+            {
+                for (int j = 1; j <= i; j++)
+                {
+                    Console.Write('*');
+                    
+                }
+                Console.WriteLine();
+            }
+
+            for (int i = n; i > 0; i--)
+            {
+                for (int j = i-1; j > 0; j--)
+                {
+                    Console.Write('*');
+
+                }
+                Console.WriteLine();
+            }
+            */
+            /* 
+
+            for (int i = 0; i <= 255; i++)
+            {
+                if (i % 10 == 0)
+                {
+                    Console.WriteLine();
+                }
+                Console.Write(" " + i);
+            }
+            */
+
+            Console.Write("enter size of squre: ");
+            int num = int.Parse(Console.ReadLine())
+            
 
 
 
 
-
-            Console.ReadLine();
+                Console.ReadLine();
 
             }
         }
