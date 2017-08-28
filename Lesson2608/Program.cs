@@ -140,12 +140,27 @@ namespace Lesson2608
             }
             */
 
-            Console.Write("enter size of squre: ");
-            int num = int.Parse(Console.ReadLine())
-            
+            Console.Write("Enter number for size of a square: ");
+            int size = int.Parse(Console.ReadLine());
 
-
-
+            for (int i = 0; i < size; i++)
+            {
+                for (int j = 0; j < size; j++)
+                {
+                    if (i == 0 || i == (size - 1))
+                    {
+                        Console.Write("1");
+                    } else if (j == 0 || j == (size - 1))
+                    {
+                        Console.Write("2");
+                    }
+                    else
+                    {
+                        Console.Write("3");
+                    }
+                }
+                Console.WriteLine();
+            }
 
                 Console.ReadLine();
 
